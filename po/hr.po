@@ -1,18 +1,18 @@
-# Croatian translation of xfce4-whiskermenu-plugin.
+# Croatian translation of blade-menu-plugin.
 # Copyright (C) 2016 Graeme Gott
-# This file is distributed under the same license as the xfce4-whiskermenu-plugin package.
+# This file is distributed under the same license as the blade-menu-plugin package.
 #
 # Translators:
 # Ante Grubišić Čabo <ante.gc@gmail.com>, 2016
 # Ilija Ćulap <ilija.culap14@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Whisker Menu\n"
+"Project-Id-Version: blademenu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-13 22:55+0000\n"
 "PO-Revision-Date: 2016-12-01 14:12+0000\n"
 "Last-Translator: Ante Grubišić Čabo <ante.gc@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/gottcode/xfce4-whiskermenu-"
+"Language-Team: Croatian (http://www.transifex.com/gottcode/blade-menu-"
 "plugin/language/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -21,375 +21,375 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: ../panel-plugin/configuration-dialog.cpp:816
+#: ../bar-plugin/configuration-dialog.cpp:816
 msgid "Add action"
 msgstr "Dodaj akciju"
 
-#: ../panel-plugin/page.cpp:257
+#: ../bar-plugin/page.cpp:257
 msgid "Add to Desktop"
 msgstr "Dodaj na Radnu površinu"
 
-#: ../panel-plugin/page.cpp:241
+#: ../bar-plugin/page.cpp:241
 msgid "Add to Favorites"
 msgstr "Dodaj u Omiljeno"
 
-#: ../panel-plugin/page.cpp:261
-msgid "Add to Panel"
+#: ../bar-plugin/page.cpp:261
+msgid "Add to Bar"
 msgstr "Dodaj na ploču"
 
-#: ../panel-plugin/category.cpp:61
+#: ../bar-plugin/category.cpp:61
 msgid "All"
 msgstr "Sve"
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "All _Settings"
 msgstr "Sve _Postavke"
 
-#: ../panel-plugin/plugin.cpp:411
+#: ../bar-plugin/plugin.cpp:411
 msgid "Alternate application launcher for Xfce"
 msgstr "Alternativni pokretač aplikacija za Xfce"
 
-#: ../panel-plugin/configuration-dialog.cpp:717
+#: ../bar-plugin/configuration-dialog.cpp:717
 msgid "Amount of _items:"
 msgstr "Broj stavki:"
 
-#: ../panel-plugin/plugin.cpp:243
+#: ../bar-plugin/plugin.cpp:243
 msgid "Applications"
 msgstr "Aplikacije"
 
-#: ../panel-plugin/configuration-dialog.cpp:652
+#: ../bar-plugin/configuration-dialog.cpp:652
 msgid "Background opacit_y:"
 msgstr "Prozirnost pozadine"
 
-#: ../panel-plugin/command-edit.cpp:49
+#: ../bar-plugin/command-edit.cpp:49
 msgid "Browse the file system to choose a custom command."
 msgstr "Pretraži datotečni sustav za odabir naredbe."
 
-#: ../panel-plugin/configuration-dialog.cpp:874
+#: ../bar-plugin/configuration-dialog.cpp:874
 msgid "C_ommand:"
 msgstr "N_aredba:"
 
-#: ../panel-plugin/configuration-dialog.cpp:637
+#: ../bar-plugin/configuration-dialog.cpp:637
 msgid "Categ_ory icon size:"
 msgstr "Veličin_a ikone kategorije:"
 
-#: ../panel-plugin/recent-page.cpp:173
+#: ../bar-plugin/recent-page.cpp:173
 msgid "Clear Recently Used"
 msgstr "Očisti kategoriju Najčešće korišteno"
 
-#: ../panel-plugin/plugin.cpp:412
+#: ../bar-plugin/plugin.cpp:412
 msgid "Copyright © 2013-2017 Graeme Gott"
 msgstr "Autorska prava © 2013-2017 Graeme Gott"
 
-#: ../panel-plugin/configuration-dialog.cpp:844
+#: ../bar-plugin/configuration-dialog.cpp:844
 msgid "Details"
 msgstr "Detalji"
 
-#: ../panel-plugin/configuration-dialog.cpp:533
+#: ../bar-plugin/configuration-dialog.cpp:533
 msgid "Di_splay:"
 msgstr "Pri_kaži:"
 
-#: ../panel-plugin/configuration-dialog.cpp:734
+#: ../bar-plugin/configuration-dialog.cpp:734
 msgid "Display by _default"
 msgstr "Prema zadanom prikaži"
 
-#: ../panel-plugin/page.cpp:268
+#: ../bar-plugin/page.cpp:268
 #, fuzzy
 msgid "Edit Application..."
 msgstr "_Uredi Aplikacije"
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Edit _Profile"
 msgstr "Uredi profil"
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Failed to edit profile."
 msgstr "Nije moguće urediti profil."
 
-#: ../panel-plugin/launcher.cpp:288 ../panel-plugin/launcher.cpp:361
-#: ../panel-plugin/run-action.cpp:41 ../panel-plugin/search-action.cpp:188
+#: ../bar-plugin/launcher.cpp:288 ../bar-plugin/launcher.cpp:361
+#: ../bar-plugin/run-action.cpp:41 ../bar-plugin/search-action.cpp:188
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Nije moguće izvršiti naredbu \"%s\"."
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "Failed to launch menu editor."
 msgstr "Nije moguće pokrenuti uređivač izbornika."
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "Failed to lock screen."
 msgstr "Zaključavanje zaslona nije moguće."
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Failed to log out."
 msgstr "Odjava nije moguća."
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "Failed to open settings manager."
 msgstr "Nije moguće otvoriti Upravitelja Postavki."
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Failed to switch users."
 msgstr "Nije moguće promijeniti korisnika."
 
-#: ../panel-plugin/window.cpp:161
+#: ../bar-plugin/window.cpp:161
 msgid "Favorites"
 msgstr "Omiljeno"
 
-#: ../panel-plugin/configuration-dialog.cpp:538
+#: ../bar-plugin/configuration-dialog.cpp:538
 msgid "Icon"
 msgstr "Ikona"
 
-#: ../panel-plugin/configuration-dialog.cpp:540
+#: ../bar-plugin/configuration-dialog.cpp:540
 msgid "Icon and title"
 msgstr "Ikona i ime"
 
-#: ../panel-plugin/configuration-dialog.cpp:728
+#: ../bar-plugin/configuration-dialog.cpp:728
 msgid "Ignore _favorites"
 msgstr "Ignoriraj omiljene"
 
-#: ../panel-plugin/configuration-dialog.cpp:621
+#: ../bar-plugin/configuration-dialog.cpp:621
 msgid "Ite_m icon size:"
 msgstr "Veličina ik_one stavke:"
 
-#: ../panel-plugin/icon-size.cpp:54
+#: ../bar-plugin/icon-size.cpp:54
 msgid "Large"
 msgstr "Veliko"
 
-#: ../panel-plugin/icon-size.cpp:55
+#: ../bar-plugin/icon-size.cpp:55
 msgid "Larger"
 msgstr "Veće"
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Log _Out"
 msgstr "O_djava"
 
-#: ../panel-plugin/settings.cpp:126
+#: ../bar-plugin/settings.cpp:126
 msgid "Man Pages"
 msgstr "Man Stranice"
 
-#: ../panel-plugin/configuration-dialog.cpp:586
-#: ../panel-plugin/configuration-dialog.cpp:677
+#: ../bar-plugin/configuration-dialog.cpp:586
+#: ../bar-plugin/configuration-dialog.cpp:677
 msgid "Menu"
 msgstr "Izbornik"
 
-#: ../panel-plugin/configuration-dialog.cpp:849
+#: ../bar-plugin/configuration-dialog.cpp:849
 msgid "Nam_e:"
 msgstr "I_me:"
 
-#: ../panel-plugin/configuration-dialog.cpp:794
+#: ../bar-plugin/configuration-dialog.cpp:794
 msgid "Name"
 msgstr "Ime"
 
-#: ../panel-plugin/icon-size.cpp:49
+#: ../bar-plugin/icon-size.cpp:49
 msgid "None"
 msgstr "Ništa"
 
-#: ../panel-plugin/icon-size.cpp:53
+#: ../bar-plugin/icon-size.cpp:53
 msgid "Normal"
 msgstr "Normalno"
 
-#: ../panel-plugin/settings.cpp:130
+#: ../bar-plugin/settings.cpp:130
 msgid "Open URI"
 msgstr "Otvori URL"
 
-#: ../panel-plugin/configuration-dialog.cpp:528
-msgid "Panel Button"
+#: ../bar-plugin/configuration-dialog.cpp:528
+msgid "Bar Button"
 msgstr "Gumb na ploči"
 
-#: ../panel-plugin/configuration-dialog.cpp:799
+#: ../bar-plugin/configuration-dialog.cpp:799
 msgid "Pattern"
 msgstr "Uzorak"
 
-#: ../panel-plugin/configuration-dialog.cpp:688
-msgid "Position _search entry next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:688
+msgid "Position _search entry next to bar button"
 msgstr "Postavi _pretraživanje kraj dugmeta na ploči"
 
-#: ../panel-plugin/configuration-dialog.cpp:701
-msgid "Position cate_gories next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:701
+msgid "Position cate_gories next to bar button"
 msgstr "Postavi kategorije pokraj gumba na ploči"
 
-#: ../panel-plugin/configuration-dialog.cpp:694
+#: ../bar-plugin/configuration-dialog.cpp:694
 msgid "Position commands next to search _entry"
 msgstr "Postavi komande kraj pret_raživanja"
 
-#: ../panel-plugin/configuration-dialog.cpp:712 ../panel-plugin/window.cpp:167
+#: ../bar-plugin/configuration-dialog.cpp:712 ../bar-plugin/window.cpp:167
 msgid "Recently Used"
 msgstr "Najčešće korišteno"
 
-#: ../panel-plugin/page.cpp:249
+#: ../bar-plugin/page.cpp:249
 msgid "Remove From Favorites"
 msgstr "Obriši iz grupe Omiljeno"
 
-#: ../panel-plugin/configuration-dialog.cpp:432
+#: ../bar-plugin/configuration-dialog.cpp:432
 #, c-format
 msgid "Remove action \"%s\"?"
 msgstr "Ukloni akciju \"%s\"?"
 
-#: ../panel-plugin/configuration-dialog.cpp:825
+#: ../bar-plugin/configuration-dialog.cpp:825
 msgid "Remove selected action"
 msgstr "Ukloni odabranu akciju"
 
-#: ../panel-plugin/run-action.cpp:71
+#: ../bar-plugin/run-action.cpp:71
 #, c-format
 msgid "Run %s"
 msgstr "Pokreni %s"
 
-#: ../panel-plugin/settings.cpp:129
+#: ../bar-plugin/settings.cpp:129
 msgid "Run in Terminal"
 msgstr "Pokreni u Terminalu"
 
-#: ../panel-plugin/configuration-dialog.cpp:86
+#: ../bar-plugin/configuration-dialog.cpp:86
 msgid "Search Actio_ns"
 msgstr "Pretraži a_kcije"
 
-#: ../panel-plugin/search-action.cpp:259
+#: ../bar-plugin/search-action.cpp:259
 msgid "Search Action"
 msgstr "Pretraži akcije"
 
-#: ../panel-plugin/configuration-dialog.cpp:119
+#: ../bar-plugin/configuration-dialog.cpp:119
 msgid "Select An Icon"
 msgstr "Izaberi ikonu"
 
-#: ../panel-plugin/command-edit.cpp:64
+#: ../bar-plugin/command-edit.cpp:64
 msgid "Select Command"
 msgstr "Odaberite Komandu"
 
-#: ../panel-plugin/whiskermenu.desktop.in.h:2
+#: ../bar-plugin/blademenu.desktop.in.h:2
 msgid "Show a menu to easily access installed applications"
 msgstr "Prikaži izbornik da bi lakše pristupili instaliranim aplikacijama"
 
-#: ../panel-plugin/configuration-dialog.cpp:603
+#: ../bar-plugin/configuration-dialog.cpp:603
 msgid "Show application _descriptions"
 msgstr "Prikazi _opis aplikacije"
 
-#: ../panel-plugin/configuration-dialog.cpp:609
+#: ../bar-plugin/configuration-dialog.cpp:609
 msgid "Show application too_ltips"
 msgstr "Prikazati savjete za korištenje aplikacije"
 
-#: ../panel-plugin/configuration-dialog.cpp:597
+#: ../bar-plugin/configuration-dialog.cpp:597
 msgid "Show cate_gory names"
 msgstr "Prikaži nazive kategorija"
 
-#: ../panel-plugin/configuration-dialog.cpp:591
+#: ../bar-plugin/configuration-dialog.cpp:591
 msgid "Show generic application _names"
 msgstr "Prikaži generička i_mena aplikacija"
 
-#: ../panel-plugin/configuration-dialog.cpp:615
+#: ../bar-plugin/configuration-dialog.cpp:615
 msgid "Show menu hie_rarchy"
 msgstr "Prikaži poredak izbo_rnika"
 
-#: ../panel-plugin/icon-size.cpp:52
+#: ../bar-plugin/icon-size.cpp:52
 msgid "Small"
 msgstr "Malo"
 
-#: ../panel-plugin/icon-size.cpp:51
+#: ../bar-plugin/icon-size.cpp:51
 msgid "Smaller"
 msgstr "Manje"
 
-#: ../panel-plugin/favorites-page.cpp:147
+#: ../bar-plugin/favorites-page.cpp:147
 msgid "Sort Alphabetically A-Z"
 msgstr "Posloži prema abecedi (A-Ž)"
 
-#: ../panel-plugin/favorites-page.cpp:153
+#: ../bar-plugin/favorites-page.cpp:153
 msgid "Sort Alphabetically Z-A"
 msgstr "Posloži prema abecedi (Ž-A)"
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Switch _Users"
 msgstr "Zamjeni _Korisnike"
 
-#: ../panel-plugin/configuration-dialog.cpp:682
+#: ../bar-plugin/configuration-dialog.cpp:682
 msgid "Switch categories by _hovering"
 msgstr "Promjeni kategoriju prij_elazom miša"
 
-#: ../panel-plugin/configuration-dialog.cpp:431
+#: ../bar-plugin/configuration-dialog.cpp:431
 msgid "The action will be deleted permanently."
 msgstr "Akcija će biti trajno uklonjena."
 
-#: ../panel-plugin/configuration-dialog.cpp:539
+#: ../bar-plugin/configuration-dialog.cpp:539
 msgid "Title"
 msgstr "Ime"
 
-#: ../panel-plugin/page.cpp:372
+#: ../bar-plugin/page.cpp:372
 msgid "Unable to add launcher to desktop."
 msgstr "Nije moguće dodati pokretač na Radnu površinu."
 
-#: ../panel-plugin/page.cpp:411 ../panel-plugin/page.cpp:420
-msgid "Unable to add launcher to panel."
+#: ../bar-plugin/page.cpp:411 ../bar-plugin/page.cpp:420
+msgid "Unable to add launcher to bar."
 msgstr "Nije moguće dodati pokretač na Ploču"
 
-#: ../panel-plugin/page.cpp:447
+#: ../bar-plugin/page.cpp:447
 #, fuzzy
 msgid "Unable to edit launcher."
 msgstr "Nije moguće dodati pokretač na Ploču"
 
-#: ../panel-plugin/configuration-dialog.cpp:492
+#: ../bar-plugin/configuration-dialog.cpp:492
 #, c-format
 msgid "Unable to open the following url: %s"
 msgstr "Nije moguće otvoriti slijedeći URL: %s"
 
-#: ../panel-plugin/configuration-dialog.cpp:573
-msgid "Use a single _panel row"
+#: ../bar-plugin/configuration-dialog.cpp:573
+msgid "Use a single _bar row"
 msgstr "Koristi samo jedan redak ploče"
 
-#: ../panel-plugin/icon-size.cpp:56
+#: ../bar-plugin/icon-size.cpp:56
 msgid "Very Large"
 msgstr "Jako veliko"
 
-#: ../panel-plugin/icon-size.cpp:50
+#: ../bar-plugin/icon-size.cpp:50
 msgid "Very Small"
 msgstr "Jako malo"
 
-#: ../panel-plugin/settings.cpp:127
+#: ../bar-plugin/settings.cpp:127
 msgid "Web Search"
 msgstr "Internet pretraga"
 
-#: ../panel-plugin/configuration-dialog.cpp:70
-#: ../panel-plugin/whiskermenu.desktop.in.h:1
-msgid "Whisker Menu"
+#: ../bar-plugin/configuration-dialog.cpp:70
+#: ../bar-plugin/blademenu.desktop.in.h:1
+msgid "blademenu"
 msgstr "Whisker Izbornik"
 
-#: ../panel-plugin/settings.cpp:128
+#: ../bar-plugin/settings.cpp:128
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: ../panel-plugin/configuration-dialog.cpp:83
+#: ../bar-plugin/configuration-dialog.cpp:83
 msgid "_Appearance"
 msgstr "Izg_led"
 
-#: ../panel-plugin/configuration-dialog.cpp:84
+#: ../bar-plugin/configuration-dialog.cpp:84
 msgid "_Behavior"
 msgstr "Pon_ašanje"
 
-#: ../panel-plugin/configuration-dialog.cpp:85
+#: ../bar-plugin/configuration-dialog.cpp:85
 msgid "_Commands"
 msgstr "Komande"
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "_Edit Applications"
 msgstr "_Uredi Aplikacije"
 
-#: ../panel-plugin/configuration-dialog.cpp:559
+#: ../bar-plugin/configuration-dialog.cpp:559
 msgid "_Icon:"
 msgstr "_Ikona"
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "_Lock Screen"
 msgstr "_Zaključaj Zaslon"
 
-#: ../panel-plugin/configuration-dialog.cpp:862
+#: ../bar-plugin/configuration-dialog.cpp:862
 msgid "_Pattern:"
 msgstr "_Uzorak:"
 
-#: ../panel-plugin/configuration-dialog.cpp:886
+#: ../bar-plugin/configuration-dialog.cpp:886
 msgid "_Regular expression"
 msgstr "_Normalan izraz"
 
-#: ../panel-plugin/configuration-dialog.cpp:548
+#: ../bar-plugin/configuration-dialog.cpp:548
 msgid "_Title:"
 msgstr "_Naslov:"
 
-#: ../panel-plugin/plugin.cpp:416
+#: ../bar-plugin/plugin.cpp:416
 msgid "translator-credits"
 msgstr "Zasluge za prijevod"

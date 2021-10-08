@@ -1,6 +1,6 @@
-# Serbian translation of xfce4-whiskermenu-plugin.
+# Serbian translation of blade-menu-plugin.
 # Copyright (C) 2017 Graeme Gott
-# This file is distributed under the same license as the xfce4-whiskermenu-plugin package.
+# This file is distributed under the same license as the blade-menu-plugin package.
 #
 # Translators:
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012
@@ -10,12 +10,12 @@
 # Саша Петровић <salepetronije@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Whisker Menu\n"
+"Project-Id-Version: blademenu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-13 22:55+0000\n"
 "PO-Revision-Date: 2017-02-04 19:52+0000\n"
 "Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/gottcode/xfce4-whiskermenu-"
+"Language-Team: Serbian (http://www.transifex.com/gottcode/blade-menu-"
 "plugin/language/sr/)\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -24,373 +24,373 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../panel-plugin/configuration-dialog.cpp:816
+#: ../bar-plugin/configuration-dialog.cpp:816
 msgid "Add action"
 msgstr "Додај радњу"
 
-#: ../panel-plugin/page.cpp:257
+#: ../bar-plugin/page.cpp:257
 msgid "Add to Desktop"
 msgstr "Додај на површ"
 
-#: ../panel-plugin/page.cpp:241
+#: ../bar-plugin/page.cpp:241
 msgid "Add to Favorites"
 msgstr "Додај у омиљене"
 
-#: ../panel-plugin/page.cpp:261
-msgid "Add to Panel"
+#: ../bar-plugin/page.cpp:261
+msgid "Add to Bar"
 msgstr "Додај на полицу"
 
-#: ../panel-plugin/category.cpp:61
+#: ../bar-plugin/category.cpp:61
 msgid "All"
 msgstr "Све"
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "All _Settings"
 msgstr "Све _поставке"
 
-#: ../panel-plugin/plugin.cpp:411
+#: ../bar-plugin/plugin.cpp:411
 msgid "Alternate application launcher for Xfce"
 msgstr "Заменски покретач програма за Иксфце"
 
-#: ../panel-plugin/configuration-dialog.cpp:717
+#: ../bar-plugin/configuration-dialog.cpp:717
 msgid "Amount of _items:"
 msgstr "Количина _ставки:"
 
-#: ../panel-plugin/plugin.cpp:243
+#: ../bar-plugin/plugin.cpp:243
 msgid "Applications"
 msgstr "Програми"
 
-#: ../panel-plugin/configuration-dialog.cpp:652
+#: ../bar-plugin/configuration-dialog.cpp:652
 msgid "Background opacit_y:"
 msgstr "Прозирност позадине_:"
 
-#: ../panel-plugin/command-edit.cpp:49
+#: ../bar-plugin/command-edit.cpp:49
 msgid "Browse the file system to choose a custom command."
 msgstr "Разгледај систем датотека ради одабира произвољне наредбе."
 
-#: ../panel-plugin/configuration-dialog.cpp:874
+#: ../bar-plugin/configuration-dialog.cpp:874
 msgid "C_ommand:"
 msgstr "Н_аредба:"
 
-#: ../panel-plugin/configuration-dialog.cpp:637
+#: ../bar-plugin/configuration-dialog.cpp:637
 msgid "Categ_ory icon size:"
 msgstr "Величина иконица _врста:"
 
-#: ../panel-plugin/recent-page.cpp:173
+#: ../bar-plugin/recent-page.cpp:173
 msgid "Clear Recently Used"
 msgstr "Очисти недавно коришћено"
 
-#: ../panel-plugin/plugin.cpp:412
+#: ../bar-plugin/plugin.cpp:412
 msgid "Copyright © 2013-2017 Graeme Gott"
 msgstr "Права умножавања © 2013-2017 Graeme Gott - Грејем гот"
 
-#: ../panel-plugin/configuration-dialog.cpp:844
+#: ../bar-plugin/configuration-dialog.cpp:844
 msgid "Details"
 msgstr "Појединости"
 
-#: ../panel-plugin/configuration-dialog.cpp:533
+#: ../bar-plugin/configuration-dialog.cpp:533
 msgid "Di_splay:"
 msgstr "Пр_иказ:"
 
-#: ../panel-plugin/configuration-dialog.cpp:734
+#: ../bar-plugin/configuration-dialog.cpp:734
 msgid "Display by _default"
 msgstr "Подразумевани приказ"
 
-#: ../panel-plugin/page.cpp:268
+#: ../bar-plugin/page.cpp:268
 msgid "Edit Application..."
 msgstr "Уреди програм..."
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Edit _Profile"
 msgstr "Уреди _профил"
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Failed to edit profile."
 msgstr "Нисам успео да уредим профил."
 
-#: ../panel-plugin/launcher.cpp:288 ../panel-plugin/launcher.cpp:361
-#: ../panel-plugin/run-action.cpp:41 ../panel-plugin/search-action.cpp:188
+#: ../bar-plugin/launcher.cpp:288 ../bar-plugin/launcher.cpp:361
+#: ../bar-plugin/run-action.cpp:41 ../bar-plugin/search-action.cpp:188
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Нисам успео да извршим наредбу „%s“."
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "Failed to launch menu editor."
 msgstr "Нисам успео да покренем уређивача изборника."
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "Failed to lock screen."
 msgstr "Нисам успео да закључам екран."
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Failed to log out."
 msgstr "Нисам успео извршим одјаву."
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "Failed to open settings manager."
 msgstr "Нисам успео да отворим управника поставки."
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Failed to switch users."
 msgstr "Нисам успео да променим корисника."
 
-#: ../panel-plugin/window.cpp:161
+#: ../bar-plugin/window.cpp:161
 msgid "Favorites"
 msgstr "Омиљено"
 
-#: ../panel-plugin/configuration-dialog.cpp:538
+#: ../bar-plugin/configuration-dialog.cpp:538
 msgid "Icon"
 msgstr "Иконица"
 
-#: ../panel-plugin/configuration-dialog.cpp:540
+#: ../bar-plugin/configuration-dialog.cpp:540
 msgid "Icon and title"
 msgstr "Иконица и наслов"
 
-#: ../panel-plugin/configuration-dialog.cpp:728
+#: ../bar-plugin/configuration-dialog.cpp:728
 msgid "Ignore _favorites"
 msgstr "Занемари _омиљене"
 
-#: ../panel-plugin/configuration-dialog.cpp:621
+#: ../bar-plugin/configuration-dialog.cpp:621
 msgid "Ite_m icon size:"
 msgstr "Величина иконице став_ке:"
 
-#: ../panel-plugin/icon-size.cpp:54
+#: ../bar-plugin/icon-size.cpp:54
 msgid "Large"
 msgstr "Велике"
 
-#: ../panel-plugin/icon-size.cpp:55
+#: ../bar-plugin/icon-size.cpp:55
 msgid "Larger"
 msgstr "Веће"
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Log _Out"
 msgstr "Одја_ва"
 
-#: ../panel-plugin/settings.cpp:126
+#: ../bar-plugin/settings.cpp:126
 msgid "Man Pages"
 msgstr "Упутне странице"
 
-#: ../panel-plugin/configuration-dialog.cpp:586
-#: ../panel-plugin/configuration-dialog.cpp:677
+#: ../bar-plugin/configuration-dialog.cpp:586
+#: ../bar-plugin/configuration-dialog.cpp:677
 msgid "Menu"
 msgstr "Изборник"
 
-#: ../panel-plugin/configuration-dialog.cpp:849
+#: ../bar-plugin/configuration-dialog.cpp:849
 msgid "Nam_e:"
 msgstr "И_ме:"
 
-#: ../panel-plugin/configuration-dialog.cpp:794
+#: ../bar-plugin/configuration-dialog.cpp:794
 msgid "Name"
 msgstr "Име"
 
-#: ../panel-plugin/icon-size.cpp:49
+#: ../bar-plugin/icon-size.cpp:49
 msgid "None"
 msgstr "Ништа"
 
-#: ../panel-plugin/icon-size.cpp:53
+#: ../bar-plugin/icon-size.cpp:53
 msgid "Normal"
 msgstr "Обичне"
 
-#: ../panel-plugin/settings.cpp:130
+#: ../bar-plugin/settings.cpp:130
 msgid "Open URI"
 msgstr "Отвори адресу"
 
-#: ../panel-plugin/configuration-dialog.cpp:528
-msgid "Panel Button"
+#: ../bar-plugin/configuration-dialog.cpp:528
+msgid "Bar Button"
 msgstr "Дугме полице"
 
-#: ../panel-plugin/configuration-dialog.cpp:799
+#: ../bar-plugin/configuration-dialog.cpp:799
 msgid "Pattern"
 msgstr "Образац"
 
-#: ../panel-plugin/configuration-dialog.cpp:688
-msgid "Position _search entry next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:688
+msgid "Position _search entry next to bar button"
 msgstr "Постави кућицу за унос до дугмета на полици"
 
-#: ../panel-plugin/configuration-dialog.cpp:701
-msgid "Position cate_gories next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:701
+msgid "Position cate_gories next to bar button"
 msgstr "Постави врсте до дугмета на полици"
 
-#: ../panel-plugin/configuration-dialog.cpp:694
+#: ../bar-plugin/configuration-dialog.cpp:694
 msgid "Position commands next to search _entry"
 msgstr "Постави наредбе до кућице претраге"
 
-#: ../panel-plugin/configuration-dialog.cpp:712 ../panel-plugin/window.cpp:167
+#: ../bar-plugin/configuration-dialog.cpp:712 ../bar-plugin/window.cpp:167
 msgid "Recently Used"
 msgstr "Недавно коришћено"
 
-#: ../panel-plugin/page.cpp:249
+#: ../bar-plugin/page.cpp:249
 msgid "Remove From Favorites"
 msgstr "Уклони из омиљених"
 
-#: ../panel-plugin/configuration-dialog.cpp:432
+#: ../bar-plugin/configuration-dialog.cpp:432
 #, c-format
 msgid "Remove action \"%s\"?"
 msgstr "Да ли да уклоним радњу „%s“?"
 
-#: ../panel-plugin/configuration-dialog.cpp:825
+#: ../bar-plugin/configuration-dialog.cpp:825
 msgid "Remove selected action"
 msgstr "Уклони означену радњу"
 
-#: ../panel-plugin/run-action.cpp:71
+#: ../bar-plugin/run-action.cpp:71
 #, c-format
 msgid "Run %s"
 msgstr "Покрени %s"
 
-#: ../panel-plugin/settings.cpp:129
+#: ../bar-plugin/settings.cpp:129
 msgid "Run in Terminal"
 msgstr "Покрени у терминалу"
 
-#: ../panel-plugin/configuration-dialog.cpp:86
+#: ../bar-plugin/configuration-dialog.cpp:86
 msgid "Search Actio_ns"
 msgstr "Р_адње претраге"
 
-#: ../panel-plugin/search-action.cpp:259
+#: ../bar-plugin/search-action.cpp:259
 msgid "Search Action"
 msgstr "Радње претраге"
 
-#: ../panel-plugin/configuration-dialog.cpp:119
+#: ../bar-plugin/configuration-dialog.cpp:119
 msgid "Select An Icon"
 msgstr "Изаберите иконицу"
 
-#: ../panel-plugin/command-edit.cpp:64
+#: ../bar-plugin/command-edit.cpp:64
 msgid "Select Command"
 msgstr "Изаберите наредбу"
 
-#: ../panel-plugin/whiskermenu.desktop.in.h:2
+#: ../bar-plugin/blademenu.desktop.in.h:2
 msgid "Show a menu to easily access installed applications"
 msgstr "Приказуј изборник за брзи приступ уграђеним програмима"
 
-#: ../panel-plugin/configuration-dialog.cpp:603
+#: ../bar-plugin/configuration-dialog.cpp:603
 msgid "Show application _descriptions"
 msgstr "Приказуј _описе програма"
 
-#: ../panel-plugin/configuration-dialog.cpp:609
+#: ../bar-plugin/configuration-dialog.cpp:609
 msgid "Show application too_ltips"
 msgstr "Приказуј програмске напомене"
 
-#: ../panel-plugin/configuration-dialog.cpp:597
+#: ../bar-plugin/configuration-dialog.cpp:597
 msgid "Show cate_gory names"
 msgstr "Прикажи имена врста_"
 
-#: ../panel-plugin/configuration-dialog.cpp:591
+#: ../bar-plugin/configuration-dialog.cpp:591
 msgid "Show generic application _names"
 msgstr "Приказуј уопштене _називе програма"
 
-#: ../panel-plugin/configuration-dialog.cpp:615
+#: ../bar-plugin/configuration-dialog.cpp:615
 msgid "Show menu hie_rarchy"
 msgstr "Приказуј гранање изборника"
 
-#: ../panel-plugin/icon-size.cpp:52
+#: ../bar-plugin/icon-size.cpp:52
 msgid "Small"
 msgstr "Мале"
 
-#: ../panel-plugin/icon-size.cpp:51
+#: ../bar-plugin/icon-size.cpp:51
 msgid "Smaller"
 msgstr "Малецне"
 
-#: ../panel-plugin/favorites-page.cpp:147
+#: ../bar-plugin/favorites-page.cpp:147
 msgid "Sort Alphabetically A-Z"
 msgstr "Поређај азбучно А-Ш"
 
-#: ../panel-plugin/favorites-page.cpp:153
+#: ../bar-plugin/favorites-page.cpp:153
 msgid "Sort Alphabetically Z-A"
 msgstr "Поређај азбучно Ш-А"
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Switch _Users"
 msgstr "Промени _корисника"
 
-#: ../panel-plugin/configuration-dialog.cpp:682
+#: ../bar-plugin/configuration-dialog.cpp:682
 msgid "Switch categories by _hovering"
 msgstr "Мењај врсте _надношењем миша"
 
-#: ../panel-plugin/configuration-dialog.cpp:431
+#: ../bar-plugin/configuration-dialog.cpp:431
 msgid "The action will be deleted permanently."
 msgstr "Радња ће бити трајно избрисана."
 
-#: ../panel-plugin/configuration-dialog.cpp:539
+#: ../bar-plugin/configuration-dialog.cpp:539
 msgid "Title"
 msgstr "Наслов"
 
-#: ../panel-plugin/page.cpp:372
+#: ../bar-plugin/page.cpp:372
 msgid "Unable to add launcher to desktop."
 msgstr "Нисам успео да додам покретач на радну површ."
 
-#: ../panel-plugin/page.cpp:411 ../panel-plugin/page.cpp:420
-msgid "Unable to add launcher to panel."
+#: ../bar-plugin/page.cpp:411 ../bar-plugin/page.cpp:420
+msgid "Unable to add launcher to bar."
 msgstr "Нисам успео да додам покретач на полицу."
 
-#: ../panel-plugin/page.cpp:447
+#: ../bar-plugin/page.cpp:447
 msgid "Unable to edit launcher."
 msgstr "Нисам успео да уредим покретач."
 
-#: ../panel-plugin/configuration-dialog.cpp:492
+#: ../bar-plugin/configuration-dialog.cpp:492
 #, c-format
 msgid "Unable to open the following url: %s"
 msgstr "Нисам успео да отворим следећу адресу: %s"
 
-#: ../panel-plugin/configuration-dialog.cpp:573
-msgid "Use a single _panel row"
+#: ../bar-plugin/configuration-dialog.cpp:573
+msgid "Use a single _bar row"
 msgstr "Користи један ред _површи"
 
-#: ../panel-plugin/icon-size.cpp:56
+#: ../bar-plugin/icon-size.cpp:56
 msgid "Very Large"
 msgstr "Врло велике"
 
-#: ../panel-plugin/icon-size.cpp:50
+#: ../bar-plugin/icon-size.cpp:50
 msgid "Very Small"
 msgstr "Врло мале"
 
-#: ../panel-plugin/settings.cpp:127
+#: ../bar-plugin/settings.cpp:127
 msgid "Web Search"
 msgstr "Претрага мреже"
 
-#: ../panel-plugin/configuration-dialog.cpp:70
-#: ../panel-plugin/whiskermenu.desktop.in.h:1
-msgid "Whisker Menu"
+#: ../bar-plugin/configuration-dialog.cpp:70
+#: ../bar-plugin/blademenu.desktop.in.h:1
+msgid "blademenu"
 msgstr "Бркин изборник"
 
-#: ../panel-plugin/settings.cpp:128
+#: ../bar-plugin/settings.cpp:128
 msgid "Wikipedia"
 msgstr "Википедија"
 
-#: ../panel-plugin/configuration-dialog.cpp:83
+#: ../bar-plugin/configuration-dialog.cpp:83
 msgid "_Appearance"
 msgstr "_Изглед"
 
-#: ../panel-plugin/configuration-dialog.cpp:84
+#: ../bar-plugin/configuration-dialog.cpp:84
 msgid "_Behavior"
 msgstr "_Понашање"
 
-#: ../panel-plugin/configuration-dialog.cpp:85
+#: ../bar-plugin/configuration-dialog.cpp:85
 msgid "_Commands"
 msgstr "_Наредбе"
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "_Edit Applications"
 msgstr "_Уреди програме"
 
-#: ../panel-plugin/configuration-dialog.cpp:559
+#: ../bar-plugin/configuration-dialog.cpp:559
 msgid "_Icon:"
 msgstr "_Иконица:"
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "_Lock Screen"
 msgstr "_Закључај екран"
 
-#: ../panel-plugin/configuration-dialog.cpp:862
+#: ../bar-plugin/configuration-dialog.cpp:862
 msgid "_Pattern:"
 msgstr "_Образац:"
 
-#: ../panel-plugin/configuration-dialog.cpp:886
+#: ../bar-plugin/configuration-dialog.cpp:886
 msgid "_Regular expression"
 msgstr "Општи из_раз"
 
-#: ../panel-plugin/configuration-dialog.cpp:548
+#: ../bar-plugin/configuration-dialog.cpp:548
 msgid "_Title:"
 msgstr "_Наслов:"
 
-#: ../panel-plugin/plugin.cpp:416
+#: ../bar-plugin/plugin.cpp:416
 msgid "translator-credits"
 msgstr "Саша Петровић <salepetronije@gmail.com>"

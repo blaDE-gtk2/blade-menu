@@ -1,6 +1,6 @@
-# German translation of xfce4-whiskermenu-plugin.
+# German translation of blade-menu-plugin.
 # Copyright (C) 2017 Graeme Gott
-# This file is distributed under the same license as the xfce4-whiskermenu-plugin package.
+# This file is distributed under the same license as the blade-menu-plugin package.
 #
 # Translators:
 # Harald Judt <h.judt@gmx.at>, 2013-2014
@@ -11,12 +11,12 @@
 # Tobias Bannert <tobannert@gmail.com>, 2014-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Whisker Menu\n"
+"Project-Id-Version: blademenu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-13 22:55+0000\n"
 "PO-Revision-Date: 2017-06-26 17:07+0000\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/gottcode/xfce4-whiskermenu-"
+"Language-Team: German (http://www.transifex.com/gottcode/blade-menu-"
 "plugin/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -24,373 +24,373 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../panel-plugin/configuration-dialog.cpp:816
+#: ../bar-plugin/configuration-dialog.cpp:816
 msgid "Add action"
 msgstr "Aktion hinzufügen"
 
-#: ../panel-plugin/page.cpp:257
+#: ../bar-plugin/page.cpp:257
 msgid "Add to Desktop"
 msgstr "Zum Schreibtisch hinzufügen"
 
-#: ../panel-plugin/page.cpp:241
+#: ../bar-plugin/page.cpp:241
 msgid "Add to Favorites"
 msgstr "Zu Favoriten hinzufügen"
 
-#: ../panel-plugin/page.cpp:261
-msgid "Add to Panel"
+#: ../bar-plugin/page.cpp:261
+msgid "Add to Bar"
 msgstr "Zur Leiste hinzufügen"
 
-#: ../panel-plugin/category.cpp:61
+#: ../bar-plugin/category.cpp:61
 msgid "All"
 msgstr "Alle"
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "All _Settings"
 msgstr "Alle _Einstellungen"
 
-#: ../panel-plugin/plugin.cpp:411
+#: ../bar-plugin/plugin.cpp:411
 msgid "Alternate application launcher for Xfce"
 msgstr "Alternativer Anwendungsstarter für Xfce"
 
-#: ../panel-plugin/configuration-dialog.cpp:717
+#: ../bar-plugin/configuration-dialog.cpp:717
 msgid "Amount of _items:"
 msgstr "Anzahl der _Einträge:"
 
-#: ../panel-plugin/plugin.cpp:243
+#: ../bar-plugin/plugin.cpp:243
 msgid "Applications"
 msgstr "Anwendungen"
 
-#: ../panel-plugin/configuration-dialog.cpp:652
+#: ../bar-plugin/configuration-dialog.cpp:652
 msgid "Background opacit_y:"
 msgstr "_Hintergrunddeckkraft:"
 
-#: ../panel-plugin/command-edit.cpp:49
+#: ../bar-plugin/command-edit.cpp:49
 msgid "Browse the file system to choose a custom command."
 msgstr "Das Dateisystem durchsuchen, um einen Befehl auszuwählen."
 
-#: ../panel-plugin/configuration-dialog.cpp:874
+#: ../bar-plugin/configuration-dialog.cpp:874
 msgid "C_ommand:"
 msgstr "B_efehl:"
 
-#: ../panel-plugin/configuration-dialog.cpp:637
+#: ../bar-plugin/configuration-dialog.cpp:637
 msgid "Categ_ory icon size:"
 msgstr "Symbolgröße der _Kategorien:"
 
-#: ../panel-plugin/recent-page.cpp:173
+#: ../bar-plugin/recent-page.cpp:173
 msgid "Clear Recently Used"
 msgstr "»Zuletzt verwendet« leeren"
 
-#: ../panel-plugin/plugin.cpp:412
+#: ../bar-plugin/plugin.cpp:412
 msgid "Copyright © 2013-2017 Graeme Gott"
 msgstr "Urheberrecht © 2013-2017 Graeme Gott"
 
-#: ../panel-plugin/configuration-dialog.cpp:844
+#: ../bar-plugin/configuration-dialog.cpp:844
 msgid "Details"
 msgstr "Details"
 
-#: ../panel-plugin/configuration-dialog.cpp:533
+#: ../bar-plugin/configuration-dialog.cpp:533
 msgid "Di_splay:"
 msgstr "A_nzeige:"
 
-#: ../panel-plugin/configuration-dialog.cpp:734
+#: ../bar-plugin/configuration-dialog.cpp:734
 msgid "Display by _default"
 msgstr "S_tandardmäßig anzeigen"
 
-#: ../panel-plugin/page.cpp:268
+#: ../bar-plugin/page.cpp:268
 msgid "Edit Application..."
 msgstr "Anwendungen bearbeiten …"
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Edit _Profile"
 msgstr "_Profil bearbeiten"
 
-#: ../panel-plugin/settings.cpp:124
+#: ../bar-plugin/settings.cpp:124
 msgid "Failed to edit profile."
 msgstr "Bearbeiten des Profils ist fehlgeschlagen."
 
-#: ../panel-plugin/launcher.cpp:288 ../panel-plugin/launcher.cpp:361
-#: ../panel-plugin/run-action.cpp:41 ../panel-plugin/search-action.cpp:188
+#: ../bar-plugin/launcher.cpp:288 ../bar-plugin/launcher.cpp:361
+#: ../bar-plugin/run-action.cpp:41 ../bar-plugin/search-action.cpp:188
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Befehl »%s« konnte nicht ausführt werden."
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "Failed to launch menu editor."
 msgstr "Menüeditor nicht gestartet werden."
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "Failed to lock screen."
 msgstr "Bildschirm konnte nicht gesperrt werden."
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Failed to log out."
 msgstr "Fehler beim Abmelden."
 
-#: ../panel-plugin/settings.cpp:119
+#: ../bar-plugin/settings.cpp:119
 msgid "Failed to open settings manager."
 msgstr "Einstellungsverwaltung konnte nicht gestartet werden."
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Failed to switch users."
 msgstr "Konnte Programm zum Benutzerwechsel nicht ausführen."
 
-#: ../panel-plugin/window.cpp:161
+#: ../bar-plugin/window.cpp:161
 msgid "Favorites"
 msgstr "Favoriten"
 
-#: ../panel-plugin/configuration-dialog.cpp:538
+#: ../bar-plugin/configuration-dialog.cpp:538
 msgid "Icon"
 msgstr "Symbol"
 
-#: ../panel-plugin/configuration-dialog.cpp:540
+#: ../bar-plugin/configuration-dialog.cpp:540
 msgid "Icon and title"
 msgstr "Symbol und Titel"
 
-#: ../panel-plugin/configuration-dialog.cpp:728
+#: ../bar-plugin/configuration-dialog.cpp:728
 msgid "Ignore _favorites"
 msgstr "_Favoriten vernachlässigen"
 
-#: ../panel-plugin/configuration-dialog.cpp:621
+#: ../bar-plugin/configuration-dialog.cpp:621
 msgid "Ite_m icon size:"
 msgstr "Symbolgröße der An_wendungen:"
 
-#: ../panel-plugin/icon-size.cpp:54
+#: ../bar-plugin/icon-size.cpp:54
 msgid "Large"
 msgstr "Groß"
 
-#: ../panel-plugin/icon-size.cpp:55
+#: ../bar-plugin/icon-size.cpp:55
 msgid "Larger"
 msgstr "Größer"
 
-#: ../panel-plugin/settings.cpp:122
+#: ../bar-plugin/settings.cpp:122
 msgid "Log _Out"
 msgstr "Abme_lden"
 
-#: ../panel-plugin/settings.cpp:126
+#: ../bar-plugin/settings.cpp:126
 msgid "Man Pages"
 msgstr "Handbuchseiten"
 
-#: ../panel-plugin/configuration-dialog.cpp:586
-#: ../panel-plugin/configuration-dialog.cpp:677
+#: ../bar-plugin/configuration-dialog.cpp:586
+#: ../bar-plugin/configuration-dialog.cpp:677
 msgid "Menu"
 msgstr "Menü"
 
-#: ../panel-plugin/configuration-dialog.cpp:849
+#: ../bar-plugin/configuration-dialog.cpp:849
 msgid "Nam_e:"
 msgstr "_Name:"
 
-#: ../panel-plugin/configuration-dialog.cpp:794
+#: ../bar-plugin/configuration-dialog.cpp:794
 msgid "Name"
 msgstr "Name"
 
-#: ../panel-plugin/icon-size.cpp:49
+#: ../bar-plugin/icon-size.cpp:49
 msgid "None"
 msgstr "Keines"
 
-#: ../panel-plugin/icon-size.cpp:53
+#: ../bar-plugin/icon-size.cpp:53
 msgid "Normal"
 msgstr "Normal"
 
-#: ../panel-plugin/settings.cpp:130
+#: ../bar-plugin/settings.cpp:130
 msgid "Open URI"
 msgstr "Adresse öffnen"
 
-#: ../panel-plugin/configuration-dialog.cpp:528
-msgid "Panel Button"
+#: ../bar-plugin/configuration-dialog.cpp:528
+msgid "Bar Button"
 msgstr "Leistenknopf"
 
-#: ../panel-plugin/configuration-dialog.cpp:799
+#: ../bar-plugin/configuration-dialog.cpp:799
 msgid "Pattern"
 msgstr "Muster"
 
-#: ../panel-plugin/configuration-dialog.cpp:688
-msgid "Position _search entry next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:688
+msgid "Position _search entry next to bar button"
 msgstr "S_ucheintrag beim Leistenknopf positionieren"
 
-#: ../panel-plugin/configuration-dialog.cpp:701
-msgid "Position cate_gories next to panel button"
+#: ../bar-plugin/configuration-dialog.cpp:701
+msgid "Position cate_gories next to bar button"
 msgstr "_Kategorien beim Leistenknopf positionieren"
 
-#: ../panel-plugin/configuration-dialog.cpp:694
+#: ../bar-plugin/configuration-dialog.cpp:694
 msgid "Position commands next to search _entry"
 msgstr "_Befehle beim Sucheintrag positionieren"
 
-#: ../panel-plugin/configuration-dialog.cpp:712 ../panel-plugin/window.cpp:167
+#: ../bar-plugin/configuration-dialog.cpp:712 ../bar-plugin/window.cpp:167
 msgid "Recently Used"
 msgstr "Zuletzt verwendet"
 
-#: ../panel-plugin/page.cpp:249
+#: ../bar-plugin/page.cpp:249
 msgid "Remove From Favorites"
 msgstr "Aus Favoriten entfernen"
 
-#: ../panel-plugin/configuration-dialog.cpp:432
+#: ../bar-plugin/configuration-dialog.cpp:432
 #, c-format
 msgid "Remove action \"%s\"?"
 msgstr "Aktion »%s« entfernen?"
 
-#: ../panel-plugin/configuration-dialog.cpp:825
+#: ../bar-plugin/configuration-dialog.cpp:825
 msgid "Remove selected action"
 msgstr "Ausgewählte Aktion entfernen"
 
-#: ../panel-plugin/run-action.cpp:71
+#: ../bar-plugin/run-action.cpp:71
 #, c-format
 msgid "Run %s"
 msgstr "%s starten"
 
-#: ../panel-plugin/settings.cpp:129
+#: ../bar-plugin/settings.cpp:129
 msgid "Run in Terminal"
 msgstr "Im Terminal ausführen"
 
-#: ../panel-plugin/configuration-dialog.cpp:86
+#: ../bar-plugin/configuration-dialog.cpp:86
 msgid "Search Actio_ns"
 msgstr "_Suchbefehle"
 
-#: ../panel-plugin/search-action.cpp:259
+#: ../bar-plugin/search-action.cpp:259
 msgid "Search Action"
 msgstr "Suchaktion"
 
-#: ../panel-plugin/configuration-dialog.cpp:119
+#: ../bar-plugin/configuration-dialog.cpp:119
 msgid "Select An Icon"
 msgstr "Ein Symbol wählen"
 
-#: ../panel-plugin/command-edit.cpp:64
+#: ../bar-plugin/command-edit.cpp:64
 msgid "Select Command"
 msgstr "Einen Befehl wählen"
 
-#: ../panel-plugin/whiskermenu.desktop.in.h:2
+#: ../bar-plugin/blademenu.desktop.in.h:2
 msgid "Show a menu to easily access installed applications"
 msgstr "Zeigt ein Menü, um einfach auf installierte Anwendungen zuzugreifen"
 
-#: ../panel-plugin/configuration-dialog.cpp:603
+#: ../bar-plugin/configuration-dialog.cpp:603
 msgid "Show application _descriptions"
 msgstr "_Anwendungsbeschreibungen anzeigen"
 
-#: ../panel-plugin/configuration-dialog.cpp:609
+#: ../bar-plugin/configuration-dialog.cpp:609
 msgid "Show application too_ltips"
 msgstr "_Anwendungsminihilfe anzeigen"
 
-#: ../panel-plugin/configuration-dialog.cpp:597
+#: ../bar-plugin/configuration-dialog.cpp:597
 msgid "Show cate_gory names"
 msgstr "_Kategorienamen anzeigen"
 
-#: ../panel-plugin/configuration-dialog.cpp:591
+#: ../bar-plugin/configuration-dialog.cpp:591
 msgid "Show generic application _names"
 msgstr "_Allgemeine Anwendungsnamen anzeigen"
 
-#: ../panel-plugin/configuration-dialog.cpp:615
+#: ../bar-plugin/configuration-dialog.cpp:615
 msgid "Show menu hie_rarchy"
 msgstr "_Menühierarchie anzeigen"
 
-#: ../panel-plugin/icon-size.cpp:52
+#: ../bar-plugin/icon-size.cpp:52
 msgid "Small"
 msgstr "Klein"
 
-#: ../panel-plugin/icon-size.cpp:51
+#: ../bar-plugin/icon-size.cpp:51
 msgid "Smaller"
 msgstr "Kleiner"
 
-#: ../panel-plugin/favorites-page.cpp:147
+#: ../bar-plugin/favorites-page.cpp:147
 msgid "Sort Alphabetically A-Z"
 msgstr "Alphabetisch sortieren A-Z"
 
-#: ../panel-plugin/favorites-page.cpp:153
+#: ../bar-plugin/favorites-page.cpp:153
 msgid "Sort Alphabetically Z-A"
 msgstr "Alphabetisch sortieren Z-A"
 
-#: ../panel-plugin/settings.cpp:121
+#: ../bar-plugin/settings.cpp:121
 msgid "Switch _Users"
 msgstr "_Benutzer wechseln"
 
-#: ../panel-plugin/configuration-dialog.cpp:682
+#: ../bar-plugin/configuration-dialog.cpp:682
 msgid "Switch categories by _hovering"
 msgstr "_Kategoriewechsel durch Darüberbewegen"
 
-#: ../panel-plugin/configuration-dialog.cpp:431
+#: ../bar-plugin/configuration-dialog.cpp:431
 msgid "The action will be deleted permanently."
 msgstr "Die Aktion wird unwiderruflich gelöscht."
 
-#: ../panel-plugin/configuration-dialog.cpp:539
+#: ../bar-plugin/configuration-dialog.cpp:539
 msgid "Title"
 msgstr "Titel"
 
-#: ../panel-plugin/page.cpp:372
+#: ../bar-plugin/page.cpp:372
 msgid "Unable to add launcher to desktop."
 msgstr "Starter konnte nicht zum Schreibtisch hinzufügt werden."
 
-#: ../panel-plugin/page.cpp:411 ../panel-plugin/page.cpp:420
-msgid "Unable to add launcher to panel."
+#: ../bar-plugin/page.cpp:411 ../bar-plugin/page.cpp:420
+msgid "Unable to add launcher to bar."
 msgstr "Starter konnte nicht zur Leiste hinzufügt werden."
 
-#: ../panel-plugin/page.cpp:447
+#: ../bar-plugin/page.cpp:447
 msgid "Unable to edit launcher."
 msgstr "Starter konnte nicht bearbeitet werden."
 
-#: ../panel-plugin/configuration-dialog.cpp:492
+#: ../bar-plugin/configuration-dialog.cpp:492
 #, c-format
 msgid "Unable to open the following url: %s"
 msgstr "Die folgende Adresse kann nicht geöffnet werden: %s"
 
-#: ../panel-plugin/configuration-dialog.cpp:573
-msgid "Use a single _panel row"
+#: ../bar-plugin/configuration-dialog.cpp:573
+msgid "Use a single _bar row"
 msgstr "_Eine einzelne Leistenreihe benutzen"
 
-#: ../panel-plugin/icon-size.cpp:56
+#: ../bar-plugin/icon-size.cpp:56
 msgid "Very Large"
 msgstr "Sehr groß"
 
-#: ../panel-plugin/icon-size.cpp:50
+#: ../bar-plugin/icon-size.cpp:50
 msgid "Very Small"
 msgstr "Sehr klein"
 
-#: ../panel-plugin/settings.cpp:127
+#: ../bar-plugin/settings.cpp:127
 msgid "Web Search"
 msgstr "Internetsuche"
 
-#: ../panel-plugin/configuration-dialog.cpp:70
-#: ../panel-plugin/whiskermenu.desktop.in.h:1
-msgid "Whisker Menu"
+#: ../bar-plugin/configuration-dialog.cpp:70
+#: ../bar-plugin/blademenu.desktop.in.h:1
+msgid "blademenu"
 msgstr "Whisker-Menü"
 
-#: ../panel-plugin/settings.cpp:128
+#: ../bar-plugin/settings.cpp:128
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: ../panel-plugin/configuration-dialog.cpp:83
+#: ../bar-plugin/configuration-dialog.cpp:83
 msgid "_Appearance"
 msgstr "_Aussehen"
 
-#: ../panel-plugin/configuration-dialog.cpp:84
+#: ../bar-plugin/configuration-dialog.cpp:84
 msgid "_Behavior"
 msgstr "_Verhalten"
 
-#: ../panel-plugin/configuration-dialog.cpp:85
+#: ../bar-plugin/configuration-dialog.cpp:85
 msgid "_Commands"
 msgstr "_Befehle"
 
-#: ../panel-plugin/settings.cpp:123
+#: ../bar-plugin/settings.cpp:123
 msgid "_Edit Applications"
 msgstr "_Menü bearbeiten"
 
-#: ../panel-plugin/configuration-dialog.cpp:559
+#: ../bar-plugin/configuration-dialog.cpp:559
 msgid "_Icon:"
 msgstr "S_ymbol:"
 
-#: ../panel-plugin/settings.cpp:120
+#: ../bar-plugin/settings.cpp:120
 msgid "_Lock Screen"
 msgstr "Bildschirm s_perren"
 
-#: ../panel-plugin/configuration-dialog.cpp:862
+#: ../bar-plugin/configuration-dialog.cpp:862
 msgid "_Pattern:"
 msgstr "_Muster:"
 
-#: ../panel-plugin/configuration-dialog.cpp:886
+#: ../bar-plugin/configuration-dialog.cpp:886
 msgid "_Regular expression"
 msgstr "_Regulärer Ausdruck"
 
-#: ../panel-plugin/configuration-dialog.cpp:548
+#: ../bar-plugin/configuration-dialog.cpp:548
 msgid "_Title:"
 msgstr "_Titel:"
 
-#: ../panel-plugin/plugin.cpp:416
+#: ../bar-plugin/plugin.cpp:416
 msgid "translator-credits"
 msgstr "Übersetzerdanksagungen"

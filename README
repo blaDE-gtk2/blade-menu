@@ -1,11 +1,11 @@
 About
 =====
 
-Whisker Menu is an alternate application launcher for Xfce. When you open
+blademenu is an alternate application launcher for Xfce. When you open
 it you are shown a list of applications you have marked as favorites. You
 can browse through all of your installed applications by clicking on the
 category buttons on the side. Top level categories make browsing fast,
-and simple to switch between. Additionally, Whisker Menu keeps a list of
+and simple to switch between. Additionally, blademenu keeps a list of
 the last ten applications that you've launched from it.
 
 Favorites are easy to add and reorder. When browsing through your
@@ -24,19 +24,19 @@ web browsers installed on your computer).
 Keyboard Shortcut
 =================
 
-A script to open and close Whisker Menu from the keyboard is included.
+A script to open and close blademenu from the keyboard is included.
 To enable support, open the keyboard preferences
 ['All Settings' -> 'Keyboard' -> 'Application Shortcuts']. Add a shortcut
-for the command 'xfce4-popup-whiskermenu' and bind it to the keyboard
+for the command 'xfce4-popup-blademenu' and bind it to the keyboard
 shortcut of your choice.
 
 
 Compiz Workaround
 =================
 
-To allow Whisker Menu to focus the search field when shown under compiz
+To allow blademenu to focus the search field when shown under compiz
 you will need to add it to the list of windows ignored by compiz's keyboard
 focus prevention. Open the focus prevention of the compiz settings
 manager [ccsm -> 'General Settings' -> 'Focus Prevention'].
-Add (title="Whisker Menu") to the exclude pattern to make compiz ignore
-Whisker Menu and allow it to focus when shown.
+Add (title="blademenu") to the exclude pattern to make compiz ignore
+blademenu and allow it to focus when shown.
